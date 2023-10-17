@@ -1,0 +1,315 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+  }
+
+/* top-cointainer nav-bar*/   
+  .navbar {
+    height: auto;
+    background: #fff;
+    min-height: auto;
+}
+
+.nav-link{
+  font-size: 20px;
+}
+
+.navbar-brand{
+  font-size: 30px;
+}
+
+.navbar {
+  
+  position: fixed;
+  min-height: 100px;
+  margin-bottom: 0px;
+  border: 0px solid transparent;
+  background: #fff;
+  -webkit-transition: all .3s ease;
+  -moz-transition: all .3s ease;
+  -o-transition: all .3s ease;
+  transition: all .3s ease;
+  box-sizing: border-box;
+  box-shadow: 0px 0px 3px #00000085;
+}
+
+.first-container, .second-container {
+  border: 1px solid #000;
+  border-radius: 0; /* Remove rounded corners */
+  z-index: 1;
+}
+
+
+/* Third-cointainer */ 
+.third-container {
+  border: 1px solid #000;
+  border-radius: 0; /* Remove rounded corners */
+  z-index: 3;
+  text-align: center;
+  position: relative;
+  border: 2px solid #000; /* Adjust the border size and color as needed */
+  padding: 20px; /* Adjust the padding as needed */
+  
+}
+
+
+/* forth-cointainer*/ 
+.brown{
+  background-color: #f4f2e9;;
+}
+
+
+/* five-cointainer*/ 
+.five-cointainer{
+        margin-top: 500px;
+        margin-bottom: 500px;
+      }
+
+      .card-container{
+        margin-top: 130px;
+        margin-bottom: 150px;
+      }
+        .original-button {
+          margin-top: 50px;
+          margin-bottom: 50px;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          line-height: 1;
+          text-decoration: none;
+          color: #000000;
+          font-size: 23px;
+          border-radius: 20px;
+          width: 246px;
+          height: 54px;
+          font-weight: bold;
+          border: 3px solid #fd6111;
+          position: relative;
+          transition: 0.3s;
+          background-color: #efebe9;
+        }
+        
+        .original-button:hover {
+          opacity: .7;
+        }
+
+        .medium-button {
+          display: flex;
+          margin-top: 100px;
+          margin-bottom: 100px;
+          margin-left: 550px;
+          align-items: center;
+          justify-content: center;
+          line-height: 1;
+          text-decoration: none;
+          color: #000000;
+          font-size: 22px;
+          border-radius: 18px;
+          width: 158px;
+          height: 51px;
+          font-weight: bold;
+          border: 3px solid #fd6111;
+          position: relative;
+          transition: 0.3s;
+          background-color: #efebe9;
+        }
+        
+        .original-button:hover {
+          opacity: .7;
+        }
+.long-button{
+ 
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  height: 50px;
+}
+
+.a{
+  margin-right: 10px;
+}
+
+  .img {
+    vertical-align: middle;
+}
+
+    .card-container {
+        display: flex;
+        justify-content: space-between;
+        
+      }
+      
+      .card1 {
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        padding: 20px;
+        width: 30%;
+        text-align: center;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+      }
+  
+      .card h2 {
+        font-size: 20px;
+        color: #333;
+      }
+  
+      .price {
+        font-size: 24px;
+        color: #007BFF;
+        margin: 10px 0;
+      }
+  
+      .checkbox {
+        margin: 10px 0;
+      }
+  
+      .checkbox label {
+        display: block;
+        margin: 5px 0;
+      }
+
+        /* Five-cointainer */ 
+    .card {
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      padding: 20px;
+      width: 300px;
+      margin: 0 auto;
+      text-align: center;
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    }
+
+    .card h1 {
+      font-size: 24px;
+      color: #333;
+    }
+
+    .card p {
+      font-size: 16px;
+      color: #666;
+    }
+
+    .btn {
+      background-color: #007BFF;
+      color: #fff;
+      padding: 10px 20px;
+      text-decoration: none;
+      border-radius: 5px;
+    }
+
+
+/* Six-cointainer*/ 
+
+
+      .grid-container {
+        display: grid;
+        grid-template-columns: 1fr 2fr 1fr;
+        grid-template-rows: repeat(4, 1fr);
+        gap: 10px;
+      }
+  
+      .grid-item {
+        
+        padding: 20px;
+        text-align: center;
+      }
+  
+      .grid-item img {
+        display: block;
+        margin: 0 auto;
+        max-width: 100%;
+        max-height: 100%;
+      }
+  
+
+/* Seven-cointainer*/ 
+      .seven-container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 20px;
+      }
+  
+      .content {
+        max-width: 60%;
+        text-align: left;
+        padding: 20px;
+        background-color: #fff; /* Background color for the content area */
+        padding: 20px; /* Adjust the padding as needed */
+        position: relative;
+        z-index: 2;
+      }
+
+    
+      .button {
+        background-color: #007BFF;
+        color: #fff;
+        padding: 10px 20px;
+        text-decoration: none;
+        border-radius: 5px;
+        display: inline-block;
+        margin-top: 10px;
+      }
+
+
+/* Eight-cointainer*/ 
+      .footer {
+        background-color: #333;
+        color: #fff;
+        text-align: center;
+        padding: 20px;
+      }
+  
+      .footer a {
+        text-decoration: none;
+        color: #fff;
+        margin: 0 10px;
+        transition: color 0.3s;
+      }
+  
+      .footer a:hover {
+        color: #007BFF;
+      }
+
+      .footer {
+        background-color: #333;
+        color: #fff;
+        text-align: center;
+        padding: 20px;
+      }
+  
+      .footer a {
+        text-decoration: none;
+        color: #fff;
+        margin: 0 10px;
+        transition: color 0.3s, background 0.3s;
+      }
+  
+      .footer a:hover {
+        color: #007BFF;
+        background: linear-gradient(90deg, #007BFF, #00BFFF);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+      }
+  
+      .footer p {
+        margin: 10px 0;
+      }
+  
+      .social-media {
+        margin-top: 10px;
+      }
+  
+      .social-media a {
+        font-size: 20px;
+        margin: 0 10px;
+      }
+
+
+/* nine-cointainer nav-bar*/ 
+      .list-unstyled{
+       font-size: 22px; 
+      }
+      
+      
